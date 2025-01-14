@@ -2,12 +2,12 @@
 GET http://localhost:3000/messages
 
 ### GET A MESSAGE BASED ON ID
-GET http://localhost:3000/messages/542
+GET http://localhost:3000/messages/413
 
 ### SEND A MESSAGE
 POST http://localhost:3000/messages
 content-type: application/json
 
 {
-    "content":"vinay"
+    "content":"vinay1"
 }
